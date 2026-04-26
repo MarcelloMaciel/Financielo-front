@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Financielo — Controle Financeiro Real</title>
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="/Imagens/favicon.ico">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="/Estilos/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Financielo</a>
+
+      <!-- Menu hambúrguer (mobile) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#funcionalidades">Funcionalidades</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+      </ul>
+
+      <a href="login.html" class="btn btn-nav">Começar grátis</a>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <!-- Bolhas decorativas de fundo -->
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <!-- Conteúdo esquerdo -->
+    <div class="hero-content">
+      <span class="badge">✦ Aplicativo 100% gratuito para começar</span>
+      <h1 class="hero-title">
+        Controle total<br />
+        das suas <em>finanças</em>
+      </h1>
+      <p class="hero-sub">
+        Visualize despesas, planeje seu futuro, crie metas e elimine dívidas.
+        Clareza financeira real — não apenas uma planilha.
+      </p>
+      <div class="hero-ctas">
+        <a href="login.html" class="btn btn-primary">Começar agora →</a>
+        <a href="#funcionalidades" class="btn btn-ghost">Ver funcionalidades</a>
+      </div>
+      <div class="hero-stores">
+        <a href="#" class="store-badge">▶ Google Play</a>
+        <a href="#" class="store-badge">⬡ App Store</a>
+      </div>
+    </div>
+
+    <!-- Mockup do celular (lado direito) -->
+    <div class="hero-phone-wrap">
+      <div class="phone-frame">
+        <!-- Barra de status simulada -->
+        <div class="phone-status">
+          <span>9:41</span>
+          <span>▮▮▮</span>
+        </div>
+
+        <!-- Conteúdo do app dentro do celular -->
+        <div class="phone-app">
+          <div class="app-header">
+            <span class="app-greeting">Olá, Bem-vindo(a) 👋</span>
+            <div class="app-avatar">M</div>
+          </div>
+
+          <!-- Saldo -->
+          <div class="app-balance-card">
+            <span class="balance-label">Saldo disponível</span>
+            <span class="balance-value" id="balanceValue">R$ 1.250,00</span>
+            <div class="balance-meta">
+              <span class="meta-in">↑ R$ 3.200 entrada</span>
+              <span class="meta-out">↓ R$ 1.950 saída</span>
+            </div>
+          </div>
+
+          <!-- Transações -->
+          <div class="app-transactions">
+            <div class="trans-header">
+              <span>Últimas transações</span>
+              <button class="btn-add-trans" id="btnAddTrans">+ Adicionar</button>
+            </div>
+            <ul class="trans-list" id="transList">
+              <li class="trans-item">
+                <span class="trans-icon">🛒</span>
+                <span class="trans-name">Supermercado</span>
+                <span class="trans-val negative">- R$ 250,00</span>
+              </li>
+              <li class="trans-item">
+                <span class="trans-icon">🎬</span>
+                <span class="trans-name">Netflix</span>
+                <span class="trans-val negative">- R$ 45,90</span>
+              </li>
+              <li class="trans-item">
+                <span class="trans-icon">🚗</span>
+                <span class="trans-name">Uber</span>
+                <span class="trans-val negative">- R$ 32,50</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Barra home simulada -->
+        <div class="phone-home-bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FUNCIONALIDADES ===================== -->
+  <section class="features" id="funcionalidades">
+    <div class="section-inner">
+      <div class="section-label">Funcionalidades Principais</div>
+      <h2 class="section-title">Tudo que você precisa<br />em um só lugar</h2>
+
+      <div class="features-grid">
+
+        <div class="feat-card">
+          <div class="feat-icon">📊</div>
+          <h3>Controle de Gastos</h3>
+          <p>Acompanhe todas as suas despesas em tempo real e nunca mais perca o controle do seu dinheiro.</p>
+        </div>
+
+        <div class="feat-card feat-card--accent">
+          <div class="feat-icon">🎯</div>
+          <h3>Metas de Economia</h3>
+          <p>Defina metas financeiras e acompanhe seu progresso visual até alcançá-las com precisão.</p>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-icon">📈</div>
+          <h3>Planejamento Financeiro</h3>
+          <p>Planeje seu futuro com projeções e simulações personalizadas baseadas nos seus dados reais.</p>
+        </div>
+
+        <div class="feat-card">
+          <div class="feat-icon">🔐</div>
+          <h3>Segurança e Privacidade</h3>
+          <p>Dados protegidos com criptografia de ponta a ponta e autenticação multifator.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PLANOS ===================== -->
+  <section class="pricing" id="planos">
+    <div class="section-inner">
+      <div class="section-label">Planos e Preços</div>
+      <h2 class="section-title">Comece grátis,<br />cresça sem limites</h2>
+
+      <div class="pricing-grid">
+
+        <div class="price-card">
+          <div class="price-tier">Gratuito</div>
+          <div class="price-value">R$ 0<span>/mês</span></div>
+          <ul class="price-features">
+            <li>✓ Controle básico de gastos</li>
+            <li>✓ Até 3 metas simultâneas</li>
+            <li>✓ Relatórios mensais</li>
+            <li class="disabled">✗ Planejamento avançado</li>
+            <li class="disabled">✗ Suporte prioritário</li>
+          </ul>
+          <a href="login.html" class="btn btn-ghost-dark">Começar grátis</a>
+        </div>
+
+        <div class="price-card price-card--pro">
+          <div class="price-badge">Mais popular</div>
+          <div class="price-tier">Pro</div>
+          <div class="price-value">R$ 19<span class="price-value">/mês</span></div>
+          <ul class="price-features">
+            <li>✓ Tudo do gratuito</li>
+            <li>✓ Metas ilimitadas</li>
+            <li>✓ Planejamento avançado</li>
+            <li>✓ Projeções e simulações</li>
+            <li>✓ Suporte prioritário</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Assinar Pro</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DEPOIMENTOS ===================== -->
+  <section class="testimonials" id="depoimentos">
+    <div class="section-inner">
+      <div class="section-label">O que nossos usuários dizem</div>
+      <h2 class="section-title">Pessoas reais,<br />resultados reais</h2>
+
+      <div class="testi-grid">
+
+        <div class="testi-card">
+          <p>"O Financielo revolucionou a forma como gerencio minhas finanças. Finalmente consigo ver onde cada centavo vai."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">T</div>
+            <div>
+              <strong>Thomas Lins</strong>
+              <span>28 anos · Gerente</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card testi-card--dark">
+          <p>"A interface é intuitiva e os relatórios são incrivelmente detalhados. Recomendo para todos que querem controle financeiro real."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">R</div>
+            <div>
+              <strong>Renan Apolinario</strong>
+              <span>23 anos · Desenvolvedor</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card">
+          <p>"Com as metas de economia, consegui realizar meu sonho de viajar pela primeira vez. Obrigado, Financielo!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">L</div>
+            <div>
+              <strong>Lucas Amaral</strong>
+              <span>30 anos · Designer</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA FINAL ===================== -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Pronto para ter clareza<br />financeira de verdade?</h2>
+      <p>Cadastre-se grátis e comece agora. Sem cartão de crédito.</p>
+      <a href="login.html" class="btn btn-primary btn-large">Criar conta gratuita →</a>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">Financielo</span>
+        <p>Controle financeiro inteligente para o seu dia a dia.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="YouTube">yt</a>
+          <a href="#" aria-label="E-mail">✉</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#">Termos de uso</a>
+        <a href="#">Política de privacidade</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Contato</a>
+      </div>
+      <p class="footer-copy">© 2026 Financielo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== MODAL: Adicionar Transação ===================== -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Adicionar transação">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Fechar modal">✕</button>
+      <h3>Nova Transação</h3>
+
+      <div class="form-group">
+        <label for="transName">Descrição</label>
+        <input type="text" id="transName" placeholder="Ex: Academia" />
+      </div>
+      <div class="form-group">
+        <label for="transValue">Valor (R$)</label>
+        <input type="number" id="transValue" placeholder="0,00" step="0.01" />
+      </div>
+      <div class="form-group">
+        <label for="transType">Tipo</label>
+        <select id="transType">
+          <option value="negative">Despesa</option>
+          <option value="positive">Receita</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="transIcon">Ícone</label>
+        <select id="transIcon">
+          <option value="💳">💳 Cartão</option>
+          <option value="🍔">🍔 Alimentação</option>
+          <option value="🚌">🚌 Transporte</option>
+          <option value="🏥">🏥 Saúde</option>
+          <option value="💡">💡 Utilidades</option>
+          <option value="💰">💰 Receita</option>
+        </select>
+      </div>
+
+      <button class="btn btn-primary btn-full" id="btnConfirmTrans">Adicionar transação</button>
+    </div>
+  </div>
+
+  <!-- JS externo -->
+  <script src="/Estilos/script.js"></script>
+</body>
+</html>
