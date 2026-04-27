@@ -14,8 +14,11 @@ O design utiliza uma abordagem "Split-Screen" com um equilíbrio entre espaços 
 
 🛠️ Tecnologias Utilizadas
 HTML5: Estruturação semântica dos formulários e containers.
+
 CSS3 (Custom Properties & Flexbox): Todo o alinhamento e estilização dos componentes foram feitos utilizando Flexbox para garantir centralização perfeita (conforme implementado no componente .btn-Login).
+
 Fontes: Utilização de tipografia sem serifa para melhor legibilidade.
+
 Ícones Sociais: Integração com bibliotecas de ícones para Login via Google, Facebook, GitHub e LinkedIn.
 
 📂 Estrutura de Pastas
