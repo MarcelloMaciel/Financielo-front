@@ -1,4 +1,4 @@
-#🚀 Financielo - Front-end
+# 🚀 Financielo - Front-end
 
 Este repositório contém a interface de usuário do projeto Financielo, focada em uma experiência de autenticação moderna, limpa e funcional. A branch atual (refactor/login-mainpage) apresenta uma reformulação completa da tela de login e registro, utilizando uma estética profissional voltada para o setor financeiro.
 
