@@ -12,7 +12,8 @@ O design utiliza uma abordagem "Split-Screen" com um equilíbrio entre espaços 
 | Inputs/Placeholders | #EDEDED | !#EDEDED |
 | Texto de Suporte | #555555 | !#555555 |
 
-🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas:
+
 HTML5: Estruturação semântica dos formulários e containers.
 
 CSS3 (Custom Properties & Flexbox): Todo o alinhamento e estilização dos componentes foram feitos utilizando Flexbox para garantir centralização perfeita (conforme implementado no componente .btn-Login).
