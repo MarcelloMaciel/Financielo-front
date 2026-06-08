@@ -15,6 +15,7 @@ O design utiliza uma abordagem "Split-Screen" com equilíbrio entre espaços em 
 | Inputs/Placeholders | `#EDEDED` | !#EDEDED |
 | Texto de Suporte | `#555555` | !#555555 |
 
+<<<<<<< HEAD
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -32,6 +33,17 @@ O design utiliza uma abordagem "Split-Screen" com equilíbrio entre espaços em 
 ---
 
 ## 📂 Estrutura de Pastas
+=======
+🛠️ Tecnologias Utilizadas:
+
+HTML5: Estruturação semântica dos formulários e containers.
+
+CSS3 (Custom Properties & Flexbox): Todo o alinhamento e estilização dos componentes foram feitos utilizando Flexbox para garantir centralização perfeita (conforme implementado no componente .btn-Login).
+
+Fontes: Utilização de tipografia sem serifa para melhor legibilidade.
+
+Ícones Sociais: Integração com bibliotecas de ícones para Login via Google, Facebook, GitHub e LinkedIn.
+>>>>>>> 1f5343a3723f832baa4ea58443d0cc1abf500f72
 
 ```text
 Financielo-front/
