@@ -28,7 +28,7 @@ document.getElementById('btnLogin').addEventListener('click', function (e) {
     }
 });
 // Defina sua BASE_URL apontando para o seu backend
-const BASE_URL = 'http://localhost:8080/api/usuarios'; 
+const BASE_URL = 'http://financiello-backend.onrender.com/api/usuarios'; 
 
 // Sua função de integração com a API
 async function create(data) {
