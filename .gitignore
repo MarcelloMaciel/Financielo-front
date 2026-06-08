@@ -1,0 +1,90 @@
+# ======================
+# Dependencies & Package Managers
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ======================
+# Build Outputs
+# ======================
+dist/
+build/
+out/
+coverage/
+.cache/
+.temp/
+tmp/
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+!.env.example  # Keep example template
+
+# ======================
+# IDEs & Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# ======================
+# Operating System
+# ======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# Logs & Debug
+# ======================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ======================
+# Testing
+# ======================
+coverage/
+.lighthouse/
+*.njs.trace
+*.njs.trace.*
+jest-stare-junit.xml
+*.snap
+
+# ======================
+# Documentation & Context Files (Generated)
+# ======================
+# These files were generated for AI assistance and are not part of the source code
+PROJECT_CONTEXT.md
+PLANO_DE_ACAO.md
+TECNOLOGIAS_SESSAO_1.md
+
+# ======================
+# Miscellaneous
+# ======================
+*.bak
+*.tmp
+*.temp
+*.old
+*.backup
+*.orig
+*.rej
+*.patch
+*.diff
+*.md.bak
+*.md.tmp

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project_context>
+    <overview>
+        Financielo is a front-end web application focused on providing a modern, clean, and functional user experience for financial control. The project features a professional aesthetic tailored for the financial sector, with an emphasis on authentication flows (login and registration) and a main landing page showcasing the application's features, pricing, and testimonials.
+    </overview>
+
+    <technologies>
+        <technology>
+            <name>HTML5</name>
+            <description>Semantic structuring of forms and containers.</description>
+        </technology>
+        <technology>
+            <name>CSS3</name>
+            <description>Utilization of custom properties (CSS variables) and Flexbox for layout and alignment, ensuring perfect centralization and responsive design.</description>
+        </technology>
+        <technology>
+            <name>JavaScript</name>
+            <description>Logic for form validation, UI interactions (modal, navigation, theme toggling), and dynamic content updates.</description>
+        </technology>
+        <technology>
+            <name>Google Fonts</name>
+            <description>Integration of Syne (for display/titles) and DM Sans (for body text) via @import in CSS.</description>
+        </technology>
+        <technology>
+            <name>Font Awesome 6.4.2</name>
+            <description>Used for social media icons (Google, Facebook, GitHub, LinkedIn) in the authentication forms.</description>
+        </technology>
+        <technology>
+            <name>Responsive Design</name>
+            <description>Mobile-first approach with hamburger menu for navigation on smaller screens.</description>
+        </technology>
+        <technology>
+            <name>CSS Animations</name>
+            <description>Subtle animations for UI elements (e.g., blob backgrounds, hover effects).</description>
+        </technology>
+    </technologies>
+
+    <folder_structure>
+        <item>
+            <path>index.html</path>
+            <description>Main landing page (hero, features, pricing, testimonials, CTA, footer)</description>
+        </item>
+        <item>
+            <path>login.html</path>
+            <description>Authentication page (login and registration forms with social login options)</description>
+        </item>
+        <item>
+            <path>README.md</path>
+            <description>Project overview and structure</description>
+        </item>
+        <item>
+            <path>Estilos/</path>
+            <description>Directory containing styles and scripts for index.html</description>
+            <contents>
+                <item>
+                    <path>style.css</path>
+                    <description>Main stylesheet for index.html (layout, colors, components)</description>
+                </item>
+                <item>
+                    <path>script.js</path>
+                    <description>JavaScript for index.html (mobile menu, modal, dynamic updates)</description>
+                </item>
+            </contents>
+        </item>
+        <item>
+            <path>Login/</path>
+            <description>Directory containing styles and scripts for login.html</description>
+            <contents>
+                <item>
+                    <path>style.css</path>
+                    <description>Stylesheet specific to login.html (form animations, toggle, social buttons)</description>
+                </item>
+                <item>
+                    <path>script.js</path>
+                    <description>JavaScript for login.html (form validation, toggle between login/register)</description>
+                </item>
+            </contents>
+        </item>
+        <item>
+            <path>Imagens/</path>
+            <description>Directory containing image assets</description>
+            <contents>
+                <item>
+                    <path>favicon.ico</path>
+                    <description>Browser tab icon</description>
+                </item>
+                <item>
+                    <path>android-chrome-*.png</path>
+                    <description>Android app icons</description>
+                </item>
+                <item>
+                    <path>apple-touch-icon.png</path>
+                    <description>iOS/web app icon</description>
+                </item>
+                <item>
+                    <path>site.webmanifest</path>
+                    <description>PWA manifest</description>
+                </item>
+            </contents>
+        </item>
+    </folder_structure>
+
+    <component_details>
+        <component name="index.html">
+            <description>Contains the full marketing site</description>
+            <subcomponents>
+                <subcomponent>
+                    <name>Navbar</name>
+                    <description>With logo, nav links, hamburger menu, and CTA button</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Hero section</name>
+                    <description>With mockup phone UI displaying app features like balance and transactions</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Features section</name>
+                    <description>4 cards with icons and descriptions</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Pricing section</name>
+                    <description>Free and Pro plans with feature comparison</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Testimonials section</name>
+                    <description>User quotes with avatars</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Final CTA section</name>
+                    <description>Call-to-action for signing up</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Footer</name>
+                    <description>Brand, links, social icons, copyright</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Modal</name>
+                    <description>For adding transactions (used in the phone mockup)</description>
+                </subcomponent>
+            </subcomponents>
+        </component>
+        <component name="login.html">
+            <description>Split-screen design with login and registration forms</description>
+            <subcomponents>
+                <subcomponent>
+                    <name>Login form</name>
+                    <description>Left side of the split screen</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Registration form</name>
+                    <description>Right side of the split screen</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Toggle animation</name>
+                    <description>Between login and registration forms</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Social login buttons</name>
+                    <description>Google, Facebook, GitHub, LinkedIn</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Form validation</name>
+                    <description>Basic validation via JavaScript</description>
+                </subcomponent>
+                <subcomponent>
+                    <name>Navigation links</name>
+                    <description>Recover password and return to home page</description>
+                </subcomponent>
+            </subcomponents>
+        </component>
+    </component_details>
+
+    <design_characteristics>
+        <color_palette>
+            <primary_color>#004853</primary_color>
+            <background_text>#FFFFFF</background_text>
+            <inputs_placeholders>#EDEDED</inputs_placeholders>
+            <support_text>#555555</support_text>
+        </color_palette>
+        <typography>
+            <title_font>Syne</title_font>
+            <body_font>DM Sans</body_font>
+        </typography>
+        <layout>
+            <approach>Flexbox for centralization and spacing, grid for sections</approach>
+            <responsiveness>Mobile-first, adaptive to mobile and desktop</responsiveness>
+        </layout>
+        <accessibility>
+            <features>ARIA attributes (aria-label, aria-modal, role), adequate contrast</features>
+        </accessibility>
+    </design_characteristics>
+
+    <notes>
+        The project is currently on branch 'refactor/login-mainpage', containing a complete overhaul of the login and registration screens with focus on professional aesthetics and usability. The code is modularized with separation of concerns: HTML for structure, CSS for presentation, and JavaScript for behavior.
+    </notes>
+</project_context>
